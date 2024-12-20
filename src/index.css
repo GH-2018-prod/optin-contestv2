@@ -1,0 +1,21 @@
+.login-form {
+    width: 100%;
+    max-width: 500px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+  }
+
+  @media (max-width: 768px) {
+    .login-form {
+      max-width: 400px;
+    }
+  }
+
+  .bg-custom {
+    background-color: #4e7fd3;
+  }
+
+  .text-custom {
+    color: #403e3ed0; 
+  }
