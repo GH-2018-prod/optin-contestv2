@@ -42,7 +42,7 @@ function App() {
   };
 
   return (
-    <Router>
+    <Router basename="/optin-contestv2">
       <Routes>
         <Route
           path="/login"
