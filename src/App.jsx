@@ -16,7 +16,7 @@ function App() {
   const handleLogout = () => {
     // Mostrar alerta de confirmación
     Swal.fire({
-      title: "Estas a punto de cerrar sesion!",
+      title: "Estas cerrando sesion!",
       text: "¿Deseas continuar?",
       icon: "warning",
       showCancelButton: true,
